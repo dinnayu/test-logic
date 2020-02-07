@@ -1,25 +1,25 @@
 
 public class CustomerData {
-	static String name;
-	static String accNumber;
-	static int balance;
+	String name;
+	String accNumber;
+	int balance;
 	
-	public static void setAccNumber(String accNumber) {
-		CustomerData.accNumber = accNumber;
+	public void setAccNumber(String accNumber) {
+		this.accNumber = accNumber;
 	}
-	public static void setBalance(int balance) {
-		CustomerData.balance = balance;
+	public void setBalance(int balance) {
+		this.balance = balance;
 	}
-	public static void setName(String name) {
-		CustomerData.name = name;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public static String getAccNumber() {
+	public String getAccNumber() {
 		return accNumber;
 	}
-	public static int getBalance() {
+	public int getBalance() {
 		return balance;
 	}
-	public static String getName() {
+	public String getName() {
 		return name;
 	}
 }
