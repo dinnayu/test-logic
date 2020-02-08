@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Input {
 	Init init;
@@ -13,5 +14,14 @@ public class Input {
 	public void printAllInput() {
 		init.printInit();
 		inputCustomerData.printCustomerData();
+		inputProcess.printAllProcess();
+	}
+	
+	public ArrayList<String> getAllProcess() {
+		return inputProcess.getProcessList();
+	}
+	
+	public ArrayList<CustomerData> getCustomerList(){
+		return inputCustomerData.getCustomerList();
 	}
 }
